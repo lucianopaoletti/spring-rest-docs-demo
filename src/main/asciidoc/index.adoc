@@ -1,0 +1,46 @@
+= Spring REST Docs Demo
+:toc: left
+:source-highlighter: highlightjs
+:sectnums:
+
+Documentación generada con Spring Rest Docs.
+
+== Author
+Metodos CRUD para autores de libros
+
+=== Crear
+
+==== Request
+include::{snippets}/author-create/curl-request.adoc[]
+include::{snippets}/author-create/request-fields.adoc[]
+
+==== Response
+include::{snippets}/author-create/http-response.adoc[]
+include::{snippets}/author-create/response-fields.adoc[]
+
+=== Leer
+
+==== Request
+include::{snippets}/author-read/curl-request.adoc[]
+
+==== Response
+include::{snippets}/author-read/http-response.adoc[]
+
+=== Actualizar
+
+==== Request
+include::{snippets}/author-update/curl-request.adoc[]
+include::{snippets}/author-update/request-fields.adoc[]
+
+==== Response
+include::{snippets}/author-update/http-response.adoc[]
+include::{snippets}/author-update/response-fields.adoc[]
+
+=== Eliminar
+
+==== Request
+include::{snippets}/author-delete/curl-request.adoc[]
+include::{snippets}/author-delete/path-parameters.adoc[]
+
+==== Response
+include::{snippets}/author-delete/http-response.adoc[]

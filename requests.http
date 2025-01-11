@@ -1,0 +1,23 @@
+@baseUrl = http://localhost:8080
+
+###
+POST {{baseUrl}}/author
+Content-Type: application/json
+
+{
+    "name": "prueba"
+}
+
+###
+GET {{baseUrl}}/author
+
+###
+PUT {{baseUrl}}/author
+Content-Type: application/json
+
+{
+    "name": "prueba"
+}
+
+###
+DELETE {{baseUrl}}/author/1
