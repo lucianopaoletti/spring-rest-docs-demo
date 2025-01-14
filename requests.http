@@ -5,7 +5,7 @@ POST {{baseUrl}}/author
 Content-Type: application/json
 
 {
-    "name": "prueba"
+    "name": "foo"
 }
 
 ###
@@ -16,8 +16,33 @@ PUT {{baseUrl}}/author
 Content-Type: application/json
 
 {
-    "name": "prueba"
+    "name": "bar"
 }
 
 ###
 DELETE {{baseUrl}}/author/1
+
+###
+POST {{baseUrl}}/book
+Content-Type: application/json
+
+{
+    "name": "lorem ipsum",
+    "authorId": 1
+}
+
+###
+GET {{baseUrl}}/book
+
+###
+PUT {{baseUrl}}/book
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "ipsum lorem",
+    "authorId": 1
+}
+
+###
+DELETE {{baseUrl}}/book/1

@@ -74,7 +74,9 @@ class AuthorControllerTests {
         Arrays.asList(new AuthorDTO(1, "foo"), new AuthorDTO(2, "bar")));
 
     var result = assertThat(
-        this.mvc.get().uri("/author").accept(MediaType.APPLICATION_JSON))
+        this.mvc.get()
+            .uri("/author")
+            .accept(MediaType.APPLICATION_JSON))
         .hasStatusOk()
         .hasContentType(MediaType.APPLICATION_JSON);
 

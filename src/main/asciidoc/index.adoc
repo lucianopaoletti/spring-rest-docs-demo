@@ -44,3 +44,43 @@ include::{snippets}/author-delete/path-parameters.adoc[]
 
 ==== Response
 include::{snippets}/author-delete/http-response.adoc[]
+
+== Book
+Metodos CRUD para libros
+
+=== Crear
+
+==== Request
+include::{snippets}/book-create/curl-request.adoc[]
+include::{snippets}/book-create/request-fields.adoc[]
+
+==== Response
+include::{snippets}/book-create/http-response.adoc[]
+include::{snippets}/book-create/response-fields.adoc[]
+
+=== Leer
+
+==== Request
+include::{snippets}/book-read/curl-request.adoc[]
+
+==== Response
+include::{snippets}/book-read/http-response.adoc[]
+
+=== Actualizar
+
+==== Request
+include::{snippets}/book-update/curl-request.adoc[]
+include::{snippets}/book-update/request-fields.adoc[]
+
+==== Response
+include::{snippets}/book-update/http-response.adoc[]
+include::{snippets}/book-update/response-fields.adoc[]
+
+=== Eliminar
+
+==== Request
+include::{snippets}/book-delete/curl-request.adoc[]
+include::{snippets}/book-delete/path-parameters.adoc[]
+
+==== Response
+include::{snippets}/book-delete/http-response.adoc[]

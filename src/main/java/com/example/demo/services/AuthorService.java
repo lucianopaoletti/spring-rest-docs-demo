@@ -43,7 +43,7 @@ public class AuthorService {
     this.authorRepository.deleteById(id);
   }
 
-  private void validateExistence(Integer id) {
+  public void validateExistence(Integer id) {
     var exists = this.authorRepository.findById(id).isPresent();
     if (!exists) {
       throw new RequestDataNotFoundException(
